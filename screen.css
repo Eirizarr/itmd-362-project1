@@ -26,12 +26,21 @@ body{
   padding-top: 2.22em;
   padding-left: 1.22em; /* 22 / 18 = 1.2222222222 */
   padding-right: 1.22em;/* 22 / 18 = 1.2222222222 */
-  background-color: white;
+  background-color: purple;
 }
 
 form{
-  color: rgb(65,0,255);
-  
+  background-color: rgb(65,0,255);
+  color: rgb(225,219,64);
+  padding-left: 1.22em;
+  padding-right: 1.22em;
+  padding-bottom:2.22em ;
+  padding-top: 2.22em ;
+  flex-wrap: wrap;
+}
+
+p{
+  color: 
 }
 
 /*
