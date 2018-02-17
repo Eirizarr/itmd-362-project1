@@ -95,3 +95,35 @@ input[type="submit"] {
 .js input[type="submit"].show {
   display: block;
 }
+
+@media screen and (min-width: 300px) {
+
+  html{
+    font-size: 1.2em;
+
+  }
+img{
+  float: left;
+  width: 90%;
+
+}
+
+p{
+   width: 85%;
+   float: left;
+}
+
+
+}
+@media screen and (min-width: 860px) {
+
+  p {
+      width: 64%;
+      float: left;
+    }
+    img {
+      width: 27%;
+      margin-left: 7%;
+      float: left;
+    }
+}
