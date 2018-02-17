@@ -46,3 +46,16 @@ image{
 a{
   color: cyan;
 }
+
+/* Form Elements */
+label {
+  display: block;
+  font-size: inherit;
+  line-height: inherit;
+  height: 1.22em;
+}
+ol {
+  line-height: 1;
+  padding: 0.7em;
+  height: 2.44em;
+}
