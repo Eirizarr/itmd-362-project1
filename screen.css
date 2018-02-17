@@ -37,3 +37,8 @@ image{
   margin-right: auto;
   height: 20em;
 }
+
+.secondset{
+  display: inline-block;
+  margin-left: 5em;
+}
