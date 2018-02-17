@@ -68,3 +68,12 @@ input {
 .inputs li {
  color: black;
 }
+
+#bday,#username,#useremail {
+ background-color: rgb(147,246,255);
+   width: 400px;
+   border: 5px solid black;
+   padding: 5px;
+   margin: 25px;
+ }
+ 
