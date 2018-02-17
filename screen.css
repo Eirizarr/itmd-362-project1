@@ -96,34 +96,20 @@ input[type="submit"] {
   display: block;
 }
 
-@media screen and (min-width: 300px) {
-
-  html{
-    font-size: 1.2em;
-
+@media screen and (min-width: 375px) {
+  body {
+    padding-left: 12.80%;
+    padding-right: 12.80%;
   }
-img{
-  float: left;
-  width: 90%;
-
 }
-
-p{
-   width: 85%;
-   float: left;
-}
-
-
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 1.375em;
+  }
 }
 @media screen and (min-width: 860px) {
-
-  p {
-      width: 64%;
-      float: left;
-    }
-    img {
-      width: 27%;
-      margin-left: 7%;
-      float: left;
-    }
+  body {
+    padding-right: 5.81%; /* 50 / 860 */
+    padding-left: 5.81%; /* 50 / 860 */
+  }
 }
