@@ -14,3 +14,13 @@ html {
   font-family: Georgia;
   background: rgb(13,118,255);
 }
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: .25em;
+  padding: 0.666em;
+  background:black;
+  color: silver;
+  text-align: center;
+}
