@@ -95,3 +95,37 @@ input[type="submit"] {
 .js input[type="submit"].show {
   display: block;
 }
+
+@media screen and (max-width: 430px){
+  h1{
+    font-size: 1em;
+    line-height: 1.22em;
+    padding: 1.5em;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12em;
+  }
+  #bday,#username,#useremail {
+   background-color: rgb(147,246,255);
+     width: 300px;
+     border: 5px solid black;
+     padding: 5px;
+     margin: 20px;
+   }
+   ol {
+     line-height: 1;
+     padding: 0.4em;
+     height: 2.44em;
+   }
+#marline{
+  display: none;
+}
+  .secondset{
+    display: block;
+    margin-left: 3em;
+    height: 6em;
+  }
+}
