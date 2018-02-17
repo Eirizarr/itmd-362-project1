@@ -76,4 +76,12 @@ input {
    padding: 5px;
    margin: 25px;
  }
- 
+
+input[type="submit"] {
+  cursor: pointer;
+  background: rgb(37,31,178);
+  padding: 0.611em;
+  border-radius: 1em;
+  float: inherit;
+  background-color: cyan;
+}
