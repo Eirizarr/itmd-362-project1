@@ -30,3 +30,10 @@ p{
   font-size: 1.22em;
   color: black;
 }
+
+image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20em;
+}
