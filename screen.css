@@ -85,3 +85,13 @@ input[type="submit"] {
   float: inherit;
   background-color: cyan;
 }
+
+/* State Styles */
+
+.js input[type="submit"] {
+  display: none;
+}
+
+.js input[type="submit"].show {
+  display: block;
+}
