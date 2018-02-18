@@ -18,34 +18,34 @@ html {
 h1 {
   font-weight: bold;
   font-size: 2.5em;
-  line-height: .25em;
+  line-height: 0.25em;
   padding: 0.666em;
-  background:black;
+  background: black;
   color: silver;
   text-align: center;
 }
 
-p{
+p {
   padding-top: 0.5em;
   font-size: 1.22em;
   color: black;
 }
 
-img{
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 20em;
 }
 
-.secondset{
+.secondset {
   display: inline-block;
   margin-left: 8em;
   height: 12em;
   padding-top: 1.5em;
 }
 
-a{
+a {
   color: cyan;
 }
 
@@ -63,21 +63,21 @@ ol {
 }
 
 input {
-  color: Black;
+  color: black;
   font-weight: bold;
 }
 
 .inputs li {
- color: black;
+  color: black;
 }
 
-#bday,#username,#useremail {
- background-color: rgb(147,246,255);
-   border: .5em solid black;
-   padding: .66em;
-   width: 50%;
-   margin: 1em;
- }
+#bday, #username, #useremail {
+  background-color: rgb(147,246,255);
+  border: 0.5em solid black;
+  padding: 0.66em;
+  width: 50%;
+  margin: 1em;
+}
 
 input[type="submit"] {
   cursor: pointer;
@@ -98,36 +98,39 @@ input[type="submit"] {
   display: block;
 }
 
-@media screen and (max-width: 430px){
-  h1{
+@media screen and (max-width: 430px) {
+
+  h1 {
     font-size: 1em;
     line-height: 1.22em;
     padding: 1.5em;
   }
-  img{
+  img {
     padding-top: 0.66em;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 12em;
   }
-  #bday,#username,#useremail {
-   background-color: rgb(147,246,255);
-     width: 300px;
-     border: 5px solid black;
-     padding: 5px;
-     margin: 20px;
-   }
-   ol {
-     line-height: 1;
-     padding: 0.4em;
-     height: 2.44em;
-   }
+  #bday, #username, #useremail {
+    background-color: rgb(147,246,255);
+    width: 15em;
+    border: 0.5em solid black;
+    padding: 0.5em;
+    margin: 1em;
+  }
 
-#controller{
-  display: none;
-}
-  .secondset{
+  ol {
+    line-height: 1em;
+    padding: 0.4em;
+    height: 2.44em;
+  }
+
+  #controller {
+    display: none;
+  }
+
+  .secondset {
     padding-top: 0.8em;
     display: block;
     margin-left: 3em;
