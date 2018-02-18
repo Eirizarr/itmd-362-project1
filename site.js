@@ -1,5 +1,5 @@
 $('#form').on('submit', function(e) {
-   var birthdate = new Date(document.getElementById("birthdate").value);
+   var birthdate = new Date(document.getElementById("bday").value);
    var today = new Date();
    var userdate = birthdate.getFullYear();
    var todaydate = today.getFullYear();
