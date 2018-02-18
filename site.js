@@ -9,7 +9,7 @@ $('#form').on('submit', function(e) {
    e.preventDefault();
    console.log ('This form was submitted');
 
-   if (username === '' || useremail === '' || bday ==='mm/dd/yyyy') {
+   if (username === '' || useremail === '' || birthdate ==='mm/dd/yyyy') {
       confirmation.textContent = fill;
       document.getElementById("confirmation").style.color = 'red';
     }
