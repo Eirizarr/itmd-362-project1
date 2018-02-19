@@ -4,7 +4,7 @@ $('#form').on('submit', function(e) {
    var useremail = $('#email').val();
    var bday = $('#bday').val();
    var Confirmation = document.getElementById("confirmation");
-   var old = "Form was submitted successfully. See you on the Discord!";
+   var success = "Form was submitted successfully. See you on the Discord!";
    var fill = "Your form is not properly filled out.";
    e.preventDefault();
    console.log ('This form was submitted');
@@ -14,7 +14,7 @@ $('#form').on('submit', function(e) {
       document.getElementById("confirmation").style.color = 'red';
     }
    else{
-     confirmation.textContent = old;
+     confirmation.textContent = success;
        document.getElementById("confirmation").style.color = 'green';
    }
  });
