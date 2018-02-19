@@ -6,10 +6,13 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
+
+/*Modular scale   Base: 18px
+
 /* Base Styles */
 html {
-  font-size: 1.12em;
-  line-height: 1.22em;
+  font-size: 1.125em;   /* 18/16 = 1.125 */
+  line-height: 1.2em;  /* 18 x 1.20 = 22, 22/18 = 1.2 */
   padding: 2.44em;
   font-family: Georgia;
   background: rgb(13,118,255);
@@ -17,8 +20,8 @@ html {
 
 h1 {
   font-weight: bold;
-  font-size: 2.5em;
-  line-height: 0.88em;
+  font-size: 2.5em; /* 40/16 = 2.5  */
+  line-height: 1.2em;  /* 40 x 1.20 = 48, 48/40 = 1.2em  */
   padding: 0.666em;
   background: black;
   color: silver;
@@ -27,7 +30,8 @@ h1 {
 
 p {
   padding-top: 0.5em;
-  font-size: 1.22em;
+  font-size: 1.125em;  /* 18/16 = 1.125 */
+  line-height: 1.2em;  /* 18 x 1.20 = 22, 22/18 = 1.2 */
   color: black;
 }
 
@@ -50,17 +54,17 @@ a {
 }
 
 /* Form Elements */
+ol {
+  line-height: 1em;
+  padding: 0.7em;
+  height: 2.44em;
+}
+
 label {
   display: block;
   font-size: inherit;
   line-height: inherit;
   height: 1.22em;
-}
-
-ol {
-  line-height: 1;
-  padding: 0.7em;
-  height: 2.44em;
 }
 
 input {
@@ -102,8 +106,8 @@ input[type="submit"] {
 @media screen and (max-width: 430px) {
 
   h1 {
-    font-size: 1em;
-    line-height: 1.22em;
+    font-size: 1em; /* 16/16 =1 */
+    line-height: 1.22em;  /* 19.5/16 = 1.22 */
     padding: 1.5em;
   }
   img {
@@ -134,7 +138,7 @@ input[type="submit"] {
   label {
     color: black;
     font-weight: bold;
-    font-size: .7em;
+    font-size: .7em; /*  */
   }
 
   .secondset {
